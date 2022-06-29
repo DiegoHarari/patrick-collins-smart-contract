@@ -16,7 +16,7 @@ async function main() {
   const currentFavNumber = await contract.retrieve();
   console.log(currentFavNumber.toString());
   const transactionResponse = await contract.store("7");
-  // console.log(transactionResponse.toString());
+  console.log(transactionResponse.toString());
 }
 
 main().then(() => process.exit(0));
