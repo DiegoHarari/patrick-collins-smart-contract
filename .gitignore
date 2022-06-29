@@ -1,0 +1,126 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.local.env
+/.sass-cache
+/connect.lock
+/coverage
+**/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+volumes/db_data/
+!volumes/db_data.zip
+
+# System Files
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+build-storybook.log
+.expo
+
+# Prostream Mobile
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# React Native
+
+## Xcode
+
+**/ios/**/build/
+**/ios/**/*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+## Android
+
+**/android/**/build/
+**/android/**/.gradle
+**/android/**/local.properties
+**/android/**/*.iml
+**/android/.idea/**
+
+## BUCK
+
+buck-out/
+\.buckd/
+!debug.keystore
+
+## fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+#
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+
+## Bundle artifact
+*.jsbundle
+
+## CocoaPods
+**/ios/Pods/
+/
+# react-native-config codegen
+ios/tmp.xcconfig
+
+## Nested node_modules
+
+node_modules/
+## Nested node_modules
+
+node_modules/
+## Nested node_modules
+
+node_modules/
+apps/prostream-mobile/Prostream.app.dSYM.zip
+apps/prostream-mobile/node_modules
+apps/prostream-mobile/ios/tmp.xcconfig
