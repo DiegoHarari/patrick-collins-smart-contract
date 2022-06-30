@@ -125,3 +125,4 @@ apps/prostream-mobile/Prostream.app.dSYM.zip
 apps/prostream-mobile/node_modules
 apps/prostream-mobile/ios/tmp.xcconfig
 *.env
+.encryptedJsonKey.json
